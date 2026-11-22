@@ -1,0 +1,17 @@
+# Protocole de gestion quotidienne
+
+1. **Lecture avant toute décision.** Lire la dernière version du journal GitHub et du journal Library `libfile_b0e72a5fc1cc819191fe69687216d712`. Réconcilier les différences : les deux états peuvent avoir des écritures non synchronisées. Faire primer les mouvements vérifiés ; ne jamais revenir à un ancien état sans contrôle.
+2. **Ordres existants.** Contrôler l'activation et l'échéance de chaque ordre. Ne valider une exécution qu'à partir de cours datés *postérieurs* à l'activation. Éviter les doubles réservations de titres et de cash. Les ordres sont exclusivement simulés.
+3. **Analyse.** Examiner les publications, surprises vs consensus, réactions des cours, informations sectorielles, macroéconomiques, réglementaires, géopolitiques et leurs impacts sur résultats, marges, cash-flow, taux et valorisations. Comparer les alternatives en 1–6 mois et les expositions communes via les ETF.
+4. **Décision.** Conserver, acheter, renforcer, alléger ou vendre ; produire pour tout nouvel ordre un ID unique, quantité, ticker, place, devise, type, limite/seuil, activation, échéance et justification. Pour les achats : objectif, invalidation, horizon et risque de gap significatif.
+5. **Comptabilité.** Réconcilier positions et espèces ; frais de 1,00 € par ordre exécuté ; dernier EUR/USD de référence BCE disponible au moment du flux ; dividendes et opérations sur titres seulement si vérifiés. Ajouter chaque mouvement une seule fois.
+6. **Valorisation.** Utiliser des cours homogènes et datés en EUR. Qualifier les valorisations provisoires, distinguer instantané initial et clôtures comparables. Reporter le cash, P/L depuis le départ, performance du jour si calculable, CW8, écart relatif, drawdown depuis le plus haut et distance aux 100 000 €.
+7. **Commit et continuité.** Mettre à jour le journal complet, les deux registres CSV et un briefing `briefings/YYYY-MM-DD.md`. Vérifier les SHA avant écriture sur GitHub et après. Mettre à jour Library dans la mesure du possible. En cas d'indisponibilité d'un système, conserver un état sûr et afficher explicitement le blocage dans le briefing.
+8. **Week-end/jour férié.** Faire un point court des nouvelles et préparer la réouverture ; ne pas inventer d'exécutions pendant les fermetures.
+9. **Vie privée.** Ce dépôt GitHub est public. N'y déposer ni secrets, ni informations privées ni données de courtier réel.
+
+## Historique initial
+
+Le 20/11/2026, valeur de référence issue du relevé utilisateur : 11 894,18 € (10 252,07 € de titres et 1 642,11 € d'espèces), écart non attribué de 58,43 € exclu. Ordre `PF-20261120-01` : vente limite de 2 GOOGL à 280 USD, activation le 23/11/2026, échéance le 25/11/2026 ; en attente avant l'ouverture du 23/11. Le 21/11/2026, le système de tâches a fonctionné sans livrer de briefing ; aucune transaction simulée vérifiée.
+
+Le code d'un commit atteste seulement l'enregistrement d'un document ; il n'atteste pas l'exécution boursière.
