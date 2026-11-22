@@ -1,0 +1,2 @@
+id,date_decision,ticker,place,devise,sens,quantite,type,limite,activation,echeance,statut,prix_execution,frais_eur
+PF-20261120-01,2026-11-20,GOOGL,Nasdaq,USD,VENTE,2,LIMITE,280.00,2026-11-23 séance régulière,2026-11-25 clôture régulière,EN_ATTENTE,,
