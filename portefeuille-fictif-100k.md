@@ -73,3 +73,18 @@ Références de l'initialisation et de la décision :
 **Deux déclencheurs à surveiller lundi 23 novembre :** (1) GOOGL à 280 USD ou plus **après** activation de l'ordre ; une simple cotation non horodatée ne suffit pas pour exécuter. (2) Confirmation ou non du rebond des semi-conducteurs après la chute de NVDA de 14,01 %, et actualisation des révisions de bénéfices avant tout nouvel achat.
 
 **Synchronisation :** point inscrit sur GitHub. La copie Library d'origine est restée à l'état du 20 novembre faute d'outil d'édition en place ; le présent point n'affecte ni quantités ni cash et doit être réconcilié à la prochaine écriture Library possible.
+
+
+## Réévaluation après ouverture US — 2026-11-23 (point précoce, vers 16 h 25–16 h 30 Europe/Paris)
+
+**Décision : CONSERVER. Aucun nouvel ordre.** L'ordre `PF-20261120-01` (vendre 2 GOOGL à 280 USD, Nasdaq, actif depuis l'ouverture régulière du 23 novembre, échéance 25 novembre) demeure **EN ATTENTE — EXÉCUTION NON CONFIRMÉE**. La cotation GOOGL de **282,86 USD à 09:19:15 ET** du 23/11 est expressément **préouverture** ; elle ne prouve pas l'atteinte du seuil durant la séance régulière. La source Yahoo Finance consultée ne fournissait pas de prix régulier postérieur à 09:30 ET horodaté et vérifiable. Ne pas débiter 2 actions ni créditer le cash ; ne pas appliquer de frais. La prochaine réévaluation devra chercher l'ouverture régulière et les transactions horodatées après 09:30 ET avant toute exécution, puis utiliser le taux BCE disponible au moment de la transaction.
+
+**Marché à l'ouverture :** les dépêches du 23/11 décrivent un rebond américain spectaculaire, Nasdaq environ +6,6 % et Nvidia environ +30 %, déclenché par l'annonce du retour de Jensen Huang à la tête de Nvidia. L'information soutient le sentiment IA mais ne résout pas à elle seule les questions de valorisation, de dépenses de centres de données, de gouvernance ou de contrôles à l'export. Le signal est trop corrélé aux lignes NVDA/MSFT/GOOGL/AMZN/NOW/ADBE et à CW8 pour engager de nouveaux achats à l'ouverture sans vérifier les cours de chaque ligne et la tenue du rebond.
+
+**État comptable confirmé inchangé :** 8 GOOGL et les huit autres lignes initiales ; espèces **1 642,11 €**, titres au dernier relevé fourni **10 252,07 €**, total de référence **11 894,18 €** au 20/11. Distance à 100 000 € **88 105,82 €**. Performance du 23/11, écart à CW8 et drawdown actualisé **non calculables** sans neuf cotations cohérentes, CW8 et change daté. Ne pas présenter le total de référence comme une valorisation de séance. Aucun mouvement de trésorerie confirmé.
+
+**Deux niveaux/événements à surveiller :** (1) prix d'ouverture et transactions régulières GOOGL à 280 USD ou plus, puis validation de l'ordre `PF-20261120-01` selon le protocole ; (2) maintien du rebond NVDA/semiconducteurs après la première heure et ses implications sur les révisions de bénéfices.
+
+**Sources consultées le 23/11 :** [Yahoo Finance GOOGL, préouverture 09:19:15 ET à 282,86 USD](https://finance.yahoo.com/quote/GOOGL/history/), [Investors.com, couverture de l'ouverture US](https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-crowdstrike-zscaler/), [BCE, taux EUR/USD de référence (dernier affiché le 20/11 : 1,0990)](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.cs.html).
+
+**Réconciliation :** journal Library inchangé au 20/11 ; GitHub conserve aussi le point du 22/11. Aucun ordre ou flux n'a été ajouté dans cette réévaluation ; les registres CSV restent inchangés et cohérents. Le briefing du matin du 23/11 n'était pas présent sur GitHub au moment du contrôle.
