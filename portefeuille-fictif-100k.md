@@ -11,7 +11,7 @@
 | Date de référence initiale (Europe/Paris) | 2026-11-20 |
 | Titres (valorisations fournies) | 10 252,07 € |
 | Espèces (EUR) | 1 642,11 € |
-| Valeur initiale reconstituée et valeur courante de référence | 11 894,18 € |
+| Valeur initiale reconstituée (non actualisée) | 11 894,18 € |
 | Total affiché par le courtier (informatif) | 11 952,61 € |
 | Écart non ventilé, exclu de l'actif et du cash | 58,43 € |
 | Plus-value latente historique fournie | +173,58 € (+1,72 %) |
@@ -23,7 +23,7 @@
 
 Les prix d'origine sont ceux du relevé fourni, avec valeurs arrondies. Pour l'initialisation, faire primer les valorisations en euros fournies sur le produit du prix arrondi par la quantité. Les actions américaines figurent en équivalent EUR dans le relevé. Pour les cotations suivantes, retenir par défaut la ligne US en USD, puis convertir en EUR. Les prix de revient d'origine sont indicatifs, distincts de la performance depuis l'ouverture du portefeuille fictif.
 
-## Positions
+## Positions — quantités confirmées, cours et valorisations initiaux
 
 | Instrument | Ticker, place, devise de négociation | Quantité | PRU EUR fourni | Cours EUR fourni | Valorisation EUR initiale | P/L latent historique EUR |
 |---|---|---:|---:|---:|---:|---:|
