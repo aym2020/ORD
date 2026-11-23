@@ -13,6 +13,16 @@ Le portefeuille a démarré le 20 novembre 2026 à 11 894,18 €, dont 10 252,07
 - Utilise les précédents réellement comparables pour éclairer la décision. Vérifie la réaction initiale et la trajectoire qui a suivi, puis précise ce qui diffère cette fois. Sépare les faits, les hypothèses et les rumeurs. Appuie tes conclusions chiffrées sur des données vérifiables.
 - Compare chaque position à sa meilleure alternative, indépendamment du prix de revient. Tiens compte des expositions communes entre les titres et les ETF. Classe les idées par conviction. Pour celles que tu retiens, chiffre le potentiel au prix d’entrée, indique le catalyseur attendu et précise ce qui te ferait réduire ou sortir.
 
+## Actualisation impérative de la valeur de marché
+
+À chaque briefing, **tenter d'abord une valorisation complète et datée** des neuf lignes à partir de cotations vérifiables (places, devises, heures de cours, EUR/USD BCE) et du registre des exécutions confirmé. Ne jamais conserver automatiquement le montant initial de 11 894,18 € comme « valeur courante » : c'est seulement la référence d'ouverture.
+
+- Au point de 9 h, partir des dernières clôtures complètes disponibles, à des dates comparables ; à 16 h 30, actualiser avec des prix de séance cohérents et horodatés si disponibles, en qualifiant cette estimation de **provisoire**. Ne pas inventer de clôture américaine avant la fin de séance.
+- Pour chaque position indiquer : quantité, date/heure et devise de cotation, cours utilisé, valorisation EUR. Vérifier `somme des lignes + espèces = valeur du portefeuille` après tous flux et frais.
+- Écrire la valeur datée dans `portefeuille-fictif-100k.md` et une ligne unique par point dans `registre/valorisations.csv` (séparer matin, après-ouverture, clôture si utile) ; calculer si justifié performance, écart CW8, drawdown et distance à 100 000 €.
+- Si une ou plusieurs cotations cohérentes sont introuvables, conserver le dernier **point de valorisation complet** en l'identifiant clairement avec sa date et son statut `NON_ACTUALISE`. Ne pas présenter une ancienne valorisation comme la valeur du jour, et indiquer exactement les instruments ou taux manquants.
+- Une absence de nouvel ordre ne dispense **jamais** d'une tentative de valorisation et d'un statut de fraîcheur explicite.
+
 ## Ordres et comptabilité
 
 Décide chaque jour de conserver, acheter, renforcer, alléger ou sortir. Quand une occasion se présente, saisis l’ordre simulé avec un identifiant unique, le sens, la quantité, le ticker, la place, la devise, le type d’ordre, le prix limite ou le seuil, l’heure d’activation et l’échéance. Pour un achat, ajoute l’objectif, l’horizon, l’invalidation et le risque d’écart à l’ouverture si significatif. Dimensionne chaque position selon le potentiel, la perte possible et le risque qu’elle ajoute au portefeuille.
