@@ -23,6 +23,22 @@ Le portefeuille a démarré le 20 novembre 2026 à 11 894,18 €, dont 10 252,07
 - Si une ou plusieurs cotations cohérentes sont introuvables, conserver le dernier **point de valorisation complet** en l'identifiant clairement avec sa date et son statut `NON_ACTUALISE`. Ne pas présenter une ancienne valorisation comme la valeur du jour, et indiquer exactement les instruments ou taux manquants.
 - Une absence de nouvel ordre ne dispense **jamais** d'une tentative de valorisation et d'un statut de fraîcheur explicite.
 
+## Format obligatoire du portefeuille — tableau de bord, pas journal narratif
+
+Le fichier racine `portefeuille-fictif-100k.md` est **l'écran d'accueil du portefeuille**. Il doit rester **court, lisible sur téléphone, composé essentiellement de tableaux Markdown GitHub**, et être **mis à jour à chaque passage** (matin 9 h et réévaluation 16 h 30, y compris lorsqu'aucun ordre n'est passé). Ne **jamais** y empiler de longs paragraphes, revues de marché, sources détaillées ou rapports datés.
+
+Structure stable à maintenir **dans cet ordre** :
+1. Titre et **statut de fraîcheur explicite** : date/heure du contrôle comptable, date/heure des cours de marché, statut (`ACTUALISE_CLOTURE`, `PROVISOIRE_INTRADAY`, `NON_ACTUALISE`) ; distinguer état comptable et valorisation de marché.
+2. **Synthèse/KPI** en tableau : valeur courante *si calculable*, dernière référence avec sa date, titres, espèces, perf. du jour et cumulée, benchmark CW8, drawdown, distance à 100 000 €. Ajouter une barre de progression textuelle seulement si sa base/date sont clairement indiquées.
+3. **Toutes les positions en tableau** : ticker, quantité, cours de marché daté en devise et/ou cours converti EUR, valorisation EUR, poids et P/L (ou `N/D` si impossible). Trier les lignes par poids décroissant. Afficher le total titres, cash et total portefeuille, et contrôler l'égalité comptable. Montrer les neuf lignes même en l'absence de mouvement.
+4. **Ordres actifs et derniers mouvements** en tableau : ID, sens, ticker, quantité, limite, validité, statut, sans confondre ordre en attente et exécution.
+5. **Deux catalyseurs/niveaux à surveiller** en tableau court.
+6. **Liens** vers `briefings/YYYY-MM-DD.md`, `registre/ordres.csv`, `registre/valorisations.csv`, `AGENTS.md` et `docs/PROTOCOLE.md` ; historique résumé en quelques lignes maximum.
+
+**Séparation stricte :** conserver les raisonnements, sources, scénarios, hypothèses, explications d'arbitrages et événements détaillés dans les seuls fichiers `briefings/YYYY-MM-DD.md`, pas dans le tableau de bord. Conserver le journal intégral des opérations et points de valorisation dans les deux CSV ; Git garde toutes les versions antérieures. Réécrire **le tableau de bord en entier** à partir des données réconciliées à chaque passage, au lieu de lui ajouter une section « Point de gestion » à la fin.
+
+**Cas des cours manquants :** ne jamais utiliser le 11 894,18 € initial comme valeur de marché actuelle. Mettre **`N/D`** pour toute valeur, performance ou comparaison non calculable et identifier la date exacte du dernier point valable. Ne pas supprimer une ligne ni fabriquer un cours pour remplir le tableau. Toute conversion USD/EUR affiche la date du taux BCE. La qualité de l'état visuel passe avant la quantité de texte ; les nombres doivent toujours provenir des sources et des registres confirmés.
+
 ## Ordres et comptabilité
 
 Décide chaque jour de conserver, acheter, renforcer, alléger ou sortir. Quand une occasion se présente, saisis l’ordre simulé avec un identifiant unique, le sens, la quantité, le ticker, la place, la devise, le type d’ordre, le prix limite ou le seuil, l’heure d’activation et l’échéance. Pour un achat, ajoute l’objectif, l’horizon, l’invalidation et le risque d’écart à l’ouverture si significatif. Dimensionne chaque position selon le potentiel, la perte possible et le risque qu’elle ajoute au portefeuille.
