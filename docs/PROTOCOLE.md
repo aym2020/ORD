@@ -11,6 +11,14 @@
 8. **Week-end/jour férié.** Faire un point court des nouvelles et préparer la réouverture ; ne pas inventer d'exécutions pendant les fermetures.
 9. **Vie privée.** Ce dépôt GitHub est public. N'y déposer ni secrets, ni informations privées ni données de courtier réel.
 
+## Présentation et écriture du tableau de bord
+
+Le fichier `portefeuille-fictif-100k.md` est un **tableau de bord Markdown GitHub**, **pas** un journal de briefings. À **chaque** exécution (9 h et 16 h 30), même sans opération, vérifier sa fraîcheur et **réécrire sa synthèse** en conservant toutes les positions et le cash, sans y ajouter de paragraphes narratifs. Respecter la structure : **statut + date des cours → KPI → progression vers 100 000 € → tableau complet des positions trié par poids → ordres en tableau → deux déclencheurs → liens vers briefings et registres**. Les métriques non établies apparaissent en `N/D`, pas comme des 0 % ou comme d'anciennes valeurs présentées comme actuelles. Une donnée initiale conserve toujours sa date du 20/11/2026.
+
+Écrire l'**analyse exhaustive** uniquement dans `briefings/YYYY-MM-DD.md`, avec les sources et les décisions. Mettre l'historique des ordres dans `registre/ordres.csv` et les points de valorisation uniques (par date et type de point) dans `registre/valorisations.csv`. Git conserve les anciennes versions du tableau de bord. **Interdiction de recopier les briefings dans le tableau de bord.**
+
+Avant le commit, contrôler : total des positions + cash = total portefeuille si valorisation possible ; toutes les quantités et l'ordre actif apparaissent ; les cours sont datés ; dernière date de valorisation explicitement affichée ; le tableau de bord est toujours lisible sans dérouler de « pavés de texte ». Écrire et vérifier les commits de la vue portefeuille et du briefing. Ne pas retarder la publication visible en cas d'indisponibilité d'une source.
+
 ## Historique initial
 
 Le 20/11/2026, valeur de référence issue du relevé utilisateur : 11 894,18 € (10 252,07 € de titres et 1 642,11 € d'espèces), écart non attribué de 58,43 € exclu. Ordre `PF-20261120-01` : vente limite de 2 GOOGL à 280 USD, activation le 23/11/2026, échéance le 25/11/2026 ; en attente avant l'ouverture du 23/11. Le 21/11/2026, le système de tâches a fonctionné sans livrer de briefing ; aucune transaction simulée vérifiée.
