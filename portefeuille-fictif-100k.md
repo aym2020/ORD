@@ -1,6 +1,10 @@
 # Portefeuille fictif · objectif 100 000 €
 
-## État courant
+## Dernier état comptable confirmé — non revalorisé
+
+**Contrôle de fraîcheur du 23 novembre 2026 :** les quantités et les espèces ci-dessous sont celles du dernier état **comptablement confirmé**. Les valorisations EUR par ligne et le total de **11 894,18 €** sont toujours ceux de l'instantané d'ouverture du **20 novembre 2026**, **pas des cours actuels du 23 novembre**. Les briefings ont été ajoutés, mais aucun mark-to-market intégral des neuf positions avec taux BCE cohérent n'a été enregistré. **Valeur de marché courante : non déterminée** ; performance et écart CW8 actualisés : non déterminés. Il faut publier un nouveau point complet (ou un provisoire de séance clairement horodaté) avant de qualifier la valeur de « courante ». L'absence d'ordre exécuté ne signifie pas que la valeur des titres n'a pas changé.
+
+## État de référence initial (20 novembre 2026)
 
 | Indicateur | Valeur |
 |---|---:|
