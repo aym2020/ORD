@@ -1,19 +1,20 @@
 # ORD — Portefeuille fictif
 
-**ACTUALISE_CLOTURE** · Contrôle 24/11/2026 matin · Cours 23/11/2026 (Paris 17h35, US 16h ET) · BCE 23/11 : 1,0939 USD/EUR.
+**NON_ACTUALISE (intraday)** · Contrôle 24/11/2026 après ouverture US · Cours 23/11/2026 (Paris 17h35, US 16h ET) · BCE 23/11 : 1,0939 USD/EUR.
 
 | KPI | Valeur |
 |---|---:|
-| Valeur | **12 252,84 €** |
-| Titres | 10 094,41 € |
+| Valeur intraday 24/11 | **N/D** |
+| Dernière valorisation complète (23/11) | **12 252,84 €** |
+| Titres au 23/11 | 10 094,41 € |
 | Cash | 2 158,43 € |
 | Référence initiale 20/11 | 11 894,18 € |
-| Performance depuis référence | +3,02 % |
+| Performance depuis référence au 23/11 | +3,02 % |
 | Performance quotidienne comparable | N/D |
-| CW8 depuis référence | +3,22 % |
+| CW8 depuis référence au 23/11 | +3,22 % |
 | Écart indicatif | −0,21 pt |
 | Drawdown sur points enregistrés | 0 % |
-| Distance objectif | 87 747,16 € |
+| Distance objectif au 23/11 | 87 747,16 € |
 
 `███░░░░░░░░░░░░░░░░░░░░░░` **12,25 %** de 100 000 € au 23/11.
 
@@ -38,7 +39,7 @@
 
 | À surveiller | Niveau |
 |---|---|
-| NVDA | 165,05 USD, tenue du rebond |
-| NOW | 90,42 USD, bas de séance du 23/11 |
+| NVDA | 165,05 USD, reprise du niveau de clôture |
+| PCE US 25/11 | Consensus core +0,3 % mensuel |
 
-[Briefing matin](briefings/2026-11-24-matin.md) · [Point précédent](briefings/2026-11-23.md) · [Ordres](registre/ordres.csv) · [Valorisations](registre/valorisations.csv) · [Mandat](AGENTS.md) · [Protocole](docs/PROTOCOLE.md)
+[Briefing après ouverture](briefings/2026-11-24.md) · [Briefing matin](briefings/2026-11-24-matin.md) · [Point précédent](briefings/2026-11-23.md) · [Ordres](registre/ordres.csv) · [Valorisations](registre/valorisations.csv) · [Mandat](AGENTS.md) · [Protocole](docs/PROTOCOLE.md)
