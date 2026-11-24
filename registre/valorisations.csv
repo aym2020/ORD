@@ -1,2 +1,3 @@
 date_point,date_cours,valeur_eur,titres_eur,especes_eur,performance_cumulee_pct,cw8_reference_eur,statut
 2026-11-20,relevé fourni sans heure,11894.18,10252.07,1642.11,0.00,667.22,INITIALISATION_NON_COMPARABLE
+2026-11-24 matin,2026-11-23 clôtures,12252.84,10094.41,2158.43,3.0154,688.72,ACTUALISE_CLOTURE
