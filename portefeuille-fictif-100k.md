@@ -1,57 +1,55 @@
 # ORD — Portefeuille fictif
 
-**NON_ACTUALISE** · Contrôle comptable correctif : **25/11/2026, matin (Europe/Paris)**. Dernière valorisation **complète** : **clôtures du 23/11/2026** ; taux BCE EUR/USD du 23/11 : **1,0939**. Cours homogènes du 24/11 et du 25/11 : **N/D**. Pas de nouvelle exécution au correctif.
+**25/11/2026 · 16 h 30 Paris · NON_ACTUALISE_INTRADAY**  
+Dernier point complet : **clôtures du 24/11**, BCE 1,0963 USD/EUR (24/11). Valeur intraday du 25/11 : N/D.
 
 ## Synthèse
 
-| KPI | Valeur (date) |
+| KPI | Valeur |
 |---|---:|
-| Valeur actuelle au 25/11 | **N/D — NON_ACTUALISE** |
-| Dernière valorisation complète (23/11) | **12 252,84 €** |
-| Titres (23/11) | 10 094,41 € |
-| Espèces comptables confirmées | **2 158,43 €** |
-| Référence initiale (20/11) | 11 894,18 € |
-| Performance cumulée indicative (23/11) | +3,02 % |
-| Performance du jour | N/D |
-| CW8 depuis référence (23/11) | +3,22 % |
-| Écart indicatif ORD − CW8 (23/11) | −0,21 pt |
-| Drawdown sur seuls points enregistrés (23/11) | 0 % |
-| Distance à 100 000 € (23/11, non actuelle) | 87 747,16 € |
+| Dernière valorisation complète | **12 152,36 €** |
+| Titres | 9 993,93 € |
+| Cash confirmé | **2 158,43 €** |
+| Variation séance du 24/11 | −0,82 % |
+| Performance cumulée indicative | +2,17 % |
+| CW8 depuis référence | +1,52 % |
+| Écart ORD − CW8 | +0,66 pt |
+| Drawdown sur points enregistrés | −0,82 % |
+| Distance à 100 000 € | 87 847,64 € |
+| Valeur et performance intraday 25/11 | N/D |
 
-`███░░░░░░░░░░░░░░░░░░░░░░` **12,25 %** de l'objectif, **uniquement sur la valorisation du 23/11**.
+`███░░░░░░░░░░░░░░░░░░░░░░` **12,15 %** (24/11).
 
-## Positions — dernier point complet du 23/11
+## Positions — clôtures du 24/11
 
-| Ticker | Qté | Cours au 23/11 | Valeur EUR | Poids | P/L latent indicatif EUR |
+| Ticker | Qté | Cours | Valeur EUR | Poids | P/L latent indicatif EUR |
 |---|---:|---:|---:|---:|---:|
-| CW8 | 4 | 688,72 EUR | 2 754,88 | 22,5 % | +131,56 |
-| GOOGL | 6 | 282,10 USD | 1 547,31 | 12,6 % | +223,05 |
-| MSFT | 3 | 492,50 USD | 1 350,67 | 11,0 % | +334,51 |
-| NOW | 12 | 91,72 USD | 1 006,16 | 8,2 % | −52,24 |
-| SHOP | 7 | 134,30 USD | 859,40 | 7,0 % | +148,20 |
-| ADBE | 4 | 223,98 USD | 819,01 | 6,7 % | −408,83 |
-| AMZN | 3 | 255,39 USD | 700,40 | 5,7 % | +10,94 |
-| ALB | 8 | 82,58 USD | 603,93 | 4,9 % | +54,97 |
-| NVDA | 3 | 165,05 USD | 452,65 | 3,7 % | +15,25 |
-| **Titres** | | | **10 094,41** | 82,4 % | |
-| **Espèces** | | | **2 158,43** | 17,6 % | |
-| **Total (23/11)** | | | **12 252,84** | 100 % | |
+| CW8 | 4 | 677,33 EUR | 2709,32 | 22.3 % | 86,00 |
+| GOOGL | 6 | 279,05 USD | 1527,23 | 12.6 % | 202,97 |
+| MSFT | 3 | 496,13 USD | 1357,65 | 11.2 % | 341,49 |
+| NOW | 12 | 91,74 USD | 1004,18 | 8.3 % | -54,22 |
+| ADBE | 4 | 232,08 USD | 846,78 | 7.0 % | -381,06 |
+| SHOP | 7 | 132,31 USD | 844,81 | 7.0 % | 133,61 |
+| AMZN | 3 | 252,29 USD | 690,39 | 5.7 % | 0,93 |
+| ALB | 8 | 80,63 USD | 588,38 | 4.8 % | 39,42 |
+| NVDA | 3 | 155,38 USD | 425,19 | 3.5 % | -12,21 |
+| **Titres** | | | **9 993,93** | 82,2 % | |
+| **Cash** | | | **2 158,43** | 17,8 % | |
+| **Total** | | | **12 152,36** | 100 % | |
 
-## Ordres et mouvements
+## Ordres
 
-| ID | Sens | Qté | Limite | Validité | Statut |
-|---|---|---:|---:|---|---|
-| PF-20261120-01 | VENTE GOOGL | 2 | 280 USD | 23–25/11 | **EXÉCUTÉ le 23/11 à 284,27 USD** |
+| ID | Sens | Qté | Limite | Statut |
+|---|---|---:|---:|---|
+| PF-20261120-01 | Vente GOOGL | 2 | 280 USD | Exécuté le 23/11 à 284,27 USD (déjà comptabilisé) |
 
-Aucun ordre restant actif dans le registre GitHub au contrôle correctif du 25/11.
+Aucun ordre actif ni nouveau mouvement.
 
-## Deux repères à surveiller (datés)
+## Surveillance
 
-| Instrument | Niveau historique |
+| Repère | Contrôle |
 |---|---|
-| NVDA | 165,05 USD — clôture du 23/11 |
-| NOW | 90,42 USD — plus bas du 23/11 |
+| NVDA 155,38 USD | Reprise de la clôture du 24/11 |
+| NOW 89,62 USD | Plus bas du 24/11 ; vérifier stabilisation |
 
-## Traçabilité
-
-[Briefing du 25/11 matin](briefings/2026-11-25-matin.md) · [Briefing du 24/11 après ouverture](briefings/2026-11-24.md) · [Briefing du 24/11 matin](briefings/2026-11-24-matin.md) · [Ordres](registre/ordres.csv) · [Valorisations](registre/valorisations.csv) · [Mandat](AGENTS.md) · [Protocole](docs/PROTOCOLE.md)
+[Briefing après ouverture](briefings/2026-11-25.md) · [Matin](briefings/2026-11-25-matin.md) · [Ordres](registre/ordres.csv) · [Valorisations](registre/valorisations.csv) · [Mandat](AGENTS.md) · [Protocole](docs/PROTOCOLE.md)
