@@ -24,3 +24,16 @@ Avant le commit, contrôler : total des positions + cash = total portefeuille si
 Le 20/11/2026, valeur de référence issue du relevé utilisateur : 11 894,18 € (10 252,07 € de titres et 1 642,11 € d'espèces), écart non attribué de 58,43 € exclu. Ordre `PF-20261120-01` : vente limite de 2 GOOGL à 280 USD, activation le 23/11/2026, échéance le 25/11/2026 ; en attente avant l'ouverture du 23/11. Le 21/11/2026, le système de tâches a fonctionné sans livrer de briefing ; aucune transaction simulée vérifiée.
 
 Le code d'un commit atteste seulement l'enregistrement d'un document ; il n'atteste pas l'exécution boursière.
+
+## Contrôle de fin d'exécution — critères vérifiables (incident 26/11/2026)
+
+À chaque analyse automatique, la réponse ChatGPT n'est **pas** le livrable unique : le travail reste partiel tant que les écritures durables n'ont pas été **tentées puis vérifiées**. Exécuter la séquence dans cet ordre :
+
+1. Lire les sources GitHub et Library dans l'ordre prescrit ; vérifier le dernier ordre et la cohérence des quantités et du cash.
+2. Tenter les neuf cours cohérents et le change BCE. Si les cours manquent, **continuer quand même** à l'étape suivante avec `NON_ACTUALISE` et le dernier point complet daté. Jamais de prix fabriqué.
+3. **Écrire réellement** le briefing daté et réécrire `portefeuille-fictif-100k.md` à **chaque** passage. Si une valeur complète est calculée, ajouter une ligne unique au CSV des valorisations ; ne jamais doubler un ordre.
+4. **Relire** le briefing, le tableau de bord et le CSV concerné sur GitHub après les écritures ; vérifier leurs contenus et le SHA du dernier commit. Une intention d'écrire n'est pas une preuve.
+5. **Remplacer** la même copie Library `libfile_b0e72a5fc1cc819191fe69687216d712` avec le tableau de bord GitHub réellement committé, puis vérifier que les contenus sont concordants (une normalisation du saut de ligne final est acceptable). Ne jamais recopier un état Library plus ancien sur GitHub.
+6. Publier dans ChatGPT : verdict, ordres, valorisation datée, cash, performance, CW8, drawdown, distance à l'objectif, deux déclencheurs, statut des deux écritures GitHub et de la Library, **lien du commit vérifié**. Signaler toute anomalie persistante avec l'étape échouée et le message d'erreur.
+
+**Règle anti-faux succès :** si une écriture attendue n'a pas abouti, l'analyse demeure *PARTIELLE* même si le texte a été envoyé et même si le planificateur indique « completed ». Si les outils d'écriture sont indisponibles, l'indiquer exactement, sans inventer une panne GitHub. Une fermeture de marché ne dispense ni de la valorisation aux dernières clôtures complètes ni des écritures.
