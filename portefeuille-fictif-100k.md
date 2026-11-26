@@ -1,6 +1,6 @@
 # ORD — Portefeuille fictif
 
-**26/11/2026 · point du matin · ACTUALISE_CLOTURE** — Derniers cours vérifiés : **25/11/2026, clôtures US 16 h ET / CW8 Euronext Paris 17 h 35 CET**. Conversion BCE **25/11/2026 : 1 EUR = 1,0935 USD**. Marchés US fermés le 26/11 (Thanksgiving) ; la valeur ci-dessous n'est **pas** une cotation du 26/11.
+**26/11/2026 · 16 h 30 · NON_ACTUALISE** — Derniers cours vérifiés : **25/11/2026, clôtures US 16 h ET / CW8 Euronext Paris 17 h 35 CET**. Conversion BCE **25/11/2026 : 1 EUR = 1,0935 USD**. Marchés US fermés le 26/11 (Thanksgiving) ; la valeur ci-dessous n'est **pas** une cotation du 26/11.
 
 ## Synthèse
 
@@ -42,7 +42,7 @@
 |---|---|---:|---|---|
 | PF-20261120-01 | Vente GOOGL | 2 | 280 USD · 23–25/11 | **EXÉCUTÉ 23/11**, à 284,27 USD, déjà comptabilisé |
 
-**Ordres actifs : aucun.** Aucun nouvel ordre ni flux comptable au 26/11 matin.
+**Ordres actifs : aucun.** Aucun nouvel ordre ni flux comptable au 26/11 à 16 h 30.
 
 ## Deux niveaux à surveiller
 
@@ -53,4 +53,4 @@
 
 ## Historique et audit
 
-[Briefing du 26/11 matin](briefings/2026-11-26-matin.md) · [Briefing du 25/11 après ouverture](briefings/2026-11-25.md) · [Ordres](registre/ordres.csv) · [Valorisations](registre/valorisations.csv) · [Mandat](AGENTS.md) · [Protocole](docs/PROTOCOLE.md)
+[Briefing du 26/11 après-midi](briefings/2026-11-26.md) · [Briefing du 26/11 matin](briefings/2026-11-26-matin.md) · [Briefing du 25/11 après ouverture](briefings/2026-11-25.md) · [Ordres](registre/ordres.csv) · [Valorisations](registre/valorisations.csv) · [Mandat](AGENTS.md) · [Protocole](docs/PROTOCOLE.md)
