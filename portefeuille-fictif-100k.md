@@ -1,6 +1,6 @@
 # ORD — Portefeuille fictif
 
-**27/11/2026 · 9 h · NON_ACTUALISE** — Derniers cours vérifiés : **25/11/2026, clôtures US 16 h ET / CW8 Euronext Paris 17 h 35 CET**. Conversion BCE **25/11/2026 : 1 EUR = 1,0935 USD**. US fermés le 26/11 ; reprise le 27/11. Valeur actuelle N/D. CW8 seul : 683,79 EUR à la clôture du 26/11, hors total homogène.
+**27/11/2026 · matin révisé après 9 h · NON_ACTUALISE** — Derniers cours vérifiés : **25/11/2026, clôtures US 16 h ET / CW8 Euronext Paris 17 h 35 CET**. Conversion BCE **25/11/2026 : 1 EUR = 1,0935 USD**. US fermés le 26/11 ; reprise le 27/11. Valeur actuelle N/D. CW8 seul : 683,79 EUR à la clôture du 26/11, hors total homogène.
 
 ## Synthèse
 
@@ -40,16 +40,17 @@
 
 | ID | Sens / titre | Qté | Limite / validité | Statut |
 |---|---|---:|---|---|
-| PF-20261120-01 | Vente GOOGL | 2 | 280 USD · 23–25/11 | **EXÉCUTÉ 23/11**, à 284,27 USD, déjà comptabilisé |
+| PF-20261120-01 | Vente GOOGL | 2 | 280 USD · 23–25/11 | **EXÉCUTÉ 23/11**, déjà comptabilisé |
+| **PF-20261127-02** | **Achat VLO (NYSE)** | **2** | **312 USD · 30/11–04/12** | **EN ATTENTE**, activation 30/11 15h30 Paris |
 
-**Ordres actifs : aucun.** Aucun nouvel ordre ni flux comptable au 27/11 matin.
+**Ordres actifs : 1 (VLO, réservé ≈ 571,64 € indicatifs au change 25/11 ; cash comptable inchangé).** Objectif 390 USD (1–6 mois) · invalidation 280 USD. Aucune exécution nouvelle.
 
 ## Deux niveaux à surveiller
 
 | Instrument | Déclencheur |
 |---|---|
-| **NVDA** | **149,30 USD**, clôture du 25/11 : vérifier vendredi la tenue du rebond de lundi |
-| **NOW** | **86,85 USD**, plus bas du 25/11 : nouveau test = risque de faiblesse du logiciel |
+| **VLO** | **312 USD**, achat limite *à partir du 30/11* ; annuler si thèse invalide avant activation |
+| **NVDA** | **149,30 USD**, clôture du 25/11 ; surveiller tenue du rebond vendredi |
 
 ## Historique et audit
 
