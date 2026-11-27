@@ -1,2 +1,3 @@
-id,date_decision,ticker,place,devise,sens,quantite,type,limite,activation,echeance,statut,prix_execution,frais_eur,date_execution,taux_bce,date_taux_bce,flux_net_eur
-PF-20261120-01,2026-11-20,GOOGL,Nasdaq,USD,VENTE,2,LIMITE,280.00,2026-11-23 séance régulière,2026-11-25 clôture régulière,EXECUTE,284.27,1.00,2026-11-23 15:30 CET,1.0990,2026-11-20,516.32
+id,date_decision,ticker,place,devise,sens,quantite,type,limite,activation,echeance,statut,prix_execution,frais_eur,date_execution,taux_bce,date_taux_bce,flux_net_eur,objectif_usd,invalidation_usd,horizon
+PF-20261120-01,2026-11-20,GOOGL,Nasdaq,USD,VENTE,2,LIMITE,280.00,2026-11-23 séance régulière,2026-11-25 clôture régulière,EXECUTE,284.27,1.00,2026-11-23 15:30 CET,1.0990,2026-11-20,516.32,,,
+PF-20261127-02,2026-11-27,VLO,NYSE,USD,ACHAT,2,LIMITE,312.00,2026-11-30 15:30 CET (09:30 EST),2026-12-04 22:00 CET (16:00 EST),EN_ATTENTE,,,,,,,390,280,1-6 mois
