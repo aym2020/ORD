@@ -53,4 +53,4 @@
 
 ## Historique et audit
 
-[Briefing du 27/11 matin](briefings/2026-11-27-matin.md) · [Briefing du 26/11 après-midi](briefings/2026-11-26.md) · [Briefing du 26/11 matin](briefings/2026-11-26-matin.md) · [Briefing du 25/11 après ouverture](briefings/2026-11-25.md) · [Ordres](registre/ordres.csv) · [Valorisations](registre/valorisations.csv) · [Mandat](AGENTS.md) · [Protocole](docs/PROTOCOLE.md)
+[Recherche hors portefeuille du 27/11](briefings/2026-11-27-recherche.md) · [Briefing du 27/11 matin](briefings/2026-11-27-matin.md) · [Briefing du 26/11 après-midi](briefings/2026-11-26.md) · [Briefing du 26/11 matin](briefings/2026-11-26-matin.md) · [Briefing du 25/11 après ouverture](briefings/2026-11-25.md) · [Ordres](registre/ordres.csv) · [Valorisations](registre/valorisations.csv) · [Mandat](AGENTS.md) · [Protocole](docs/PROTOCOLE.md)
