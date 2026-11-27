@@ -37,3 +37,14 @@ Le code d'un commit atteste seulement l'enregistrement d'un document ; il n'atte
 6. Publier dans ChatGPT : verdict, ordres, valorisation datée, cash, performance, CW8, drawdown, distance à l'objectif, deux déclencheurs, statut des deux écritures GitHub et de la Library, **lien du commit vérifié**. Signaler toute anomalie persistante avec l'étape échouée et le message d'erreur.
 
 **Règle anti-faux succès :** si une écriture attendue n'a pas abouti, l'analyse demeure *PARTIELLE* même si le texte a été envoyé et même si le planificateur indique « completed ». Si les outils d'écriture sont indisponibles, l'indiquer exactement, sans inventer une panne GitHub. Une fermeture de marché ne dispense ni de la valorisation aux dernières clôtures complètes ni des écritures.
+
+## Revue de l'univers investissable — contrôle stratégique obligatoire
+
+La tâche quotidienne combine **(1) tenue des positions et sécurité comptable** et **(2) sélection active d'investissements hors portefeuille**. L'une ne remplace jamais l'autre. Dans le briefing daté, ajouter après le point comptable une section `Recherche hors portefeuille et concurrence du capital` contenant :
+
+- **Couverture réellement effectuée** : marchés, secteurs, nombre et/ou familles d'actions effectivement vérifiés, dates et sources (univers indicatif : top 50 US, leaders européens, midcaps US/Europe liquides ; l'univers ne doit pas être limité aux neuf lignes).
+- **Au moins trois dossiers externes évalués au matin** ou signalement explicite des données manquantes : catalyseur, dernier fait vs consensus, situation fondamentale, sensibilité des résultats, cours et valorisation datés, scénario 1–6 mois, déclencheur et invalidation. Au point après-ouverture, réévaluer la shortlist et chercher les nouvelles surprises de la séance.
+- **Classement comparatif** des idées externes et détenues, incluant le cash. Identifier la ligne éventuellement finançable et expliciter pourquoi l'ordre est préférable à `CONSERVER`. Ne pas obliger un ordre par jour : l'activité est la **recherche**, pas la rotation pour la rotation.
+- **Verdict opérationnel** : `ACHETER / ALLEGER / VENDRE / RENFORCER / ATTENDRE` pour chaque action proposée et conditions de déclenchement. Sans cours ou valorisation fiable : `SURVEILLER — pas d'ordre`, sans cible inventée.
+
+Dans chaque briefing quotidien, préciser `Couverture externe : FAITE / PARTIELLE / NON FAITE`, indépendamment de `Synchronisation technique : OK / PARTIELLE`. Une réussite GitHub/Library ne valide **jamais** à elle seule une bonne analyse d'investissement. Toute comparaison chiffrée et toute anticipation doivent citer leur source avec date. Tenir compte des précédents sans biais rétrospectif.
