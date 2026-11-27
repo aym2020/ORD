@@ -48,3 +48,7 @@ La tâche quotidienne combine **(1) tenue des positions et sécurité comptable*
 - **Verdict opérationnel** : `ACHETER / ALLEGER / VENDRE / RENFORCER / ATTENDRE` pour chaque action proposée et conditions de déclenchement. Sans cours ou valorisation fiable : `SURVEILLER — pas d'ordre`, sans cible inventée.
 
 Dans chaque briefing quotidien, préciser `Couverture externe : FAITE / PARTIELLE / NON FAITE`, indépendamment de `Synchronisation technique : OK / PARTIELLE`. Une réussite GitHub/Library ne valide **jamais** à elle seule une bonne analyse d'investissement. Toute comparaison chiffrée et toute anticipation doivent citer leur source avec date. Tenir compte des précédents sans biais rétrospectif.
+
+## Résolution des références Library après remplacement
+
+Après remplacement, relister le dossier `/ORD` sur la surface Library, retrouver l'entrée par son identifiant Library permanent, puis lire avec le `file_id` courant ou la nouvelle référence de résultat de listing. Ne pas réutiliser une référence de lecture antérieure au remplacement. Comparer le texte intégral au tableau GitHub relu (normalisation du saut final admise). En cas d'erreur de visibilité, relister avant de réessayer. Pour la couverture stratégique, consigner les titres réellement examinés et les sources consultées, distinguer balayage initial et shortlist approfondie ; rechercher les cours manquants par une seconde source indépendante avant de conclure N/D. Ne pas déclarer une couverture complète sans preuve.
