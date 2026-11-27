@@ -1,6 +1,6 @@
 # ORD — Portefeuille fictif
 
-**27/11/2026 · matin révisé après 9 h · NON_ACTUALISE** — Derniers cours vérifiés : **25/11/2026, clôtures US 16 h ET / CW8 Euronext Paris 17 h 35 CET**. Conversion BCE **25/11/2026 : 1 EUR = 1,0935 USD**. US fermés le 26/11 ; reprise le 27/11. Valeur actuelle N/D. CW8 seul : 683,79 EUR à la clôture du 26/11, hors total homogène.
+**27/11/2026 · 16 h 30 Paris · NON_ACTUALISE** — Derniers cours vérifiés : **25/11/2026, clôtures US 16 h ET / CW8 Euronext Paris 17 h 35 CET**. Conversion BCE **25/11/2026 : 1 EUR = 1,0935 USD**. Séance US écourtée le 27/11 ; cours intraday complets non obtenus. Valeur actuelle N/D. BCE 27/11 : 1,0957 USD/EUR (non appliqué aux clôtures historiques). CW8 seul : 683,79 EUR à la clôture du 26/11, hors total homogène.
 
 ## Synthèse
 
@@ -43,15 +43,17 @@
 | PF-20261120-01 | Vente GOOGL | 2 | 280 USD · 23–25/11 | **EXÉCUTÉ 23/11**, déjà comptabilisé |
 | **PF-20261127-02** | **Achat VLO (NYSE)** | **2** | **312 USD · 30/11–04/12** | **EN ATTENTE**, activation 30/11 15h30 Paris |
 
-**Ordres actifs : 1 (VLO, réservé ≈ 571,64 € indicatifs au change 25/11 ; cash comptable inchangé).** Objectif 390 USD (1–6 mois) · invalidation 280 USD. Aucune exécution nouvelle.
+**Ordres en attente : 1 (VLO, réservé ≈ 570,50 € indicatifs au change 27/11, frais inclus ; cash comptable inchangé).** Objectif 390 USD (1–6 mois) · invalidation 280 USD. Aucune exécution nouvelle.
 
 ## Deux niveaux à surveiller
 
 | Instrument | Déclencheur |
 |---|---|
 | **VLO** | **312 USD**, achat limite *à partir du 30/11* ; annuler si thèse invalide avant activation |
-| **NVDA** | **149,30 USD**, clôture du 25/11 ; surveiller tenue du rebond vendredi |
+| **NVDA** | **149,30 USD**, clôture du 25/11 ; reprise non confirmée : -1,7 % à 9 h 51 ET |
 
 ## Historique et audit
+
+[Briefing du 27/11 après ouverture](briefings/2026-11-27.md) · [Briefing du matin](briefings/2026-11-27-matin.md)
 
 [Recherche hors portefeuille du 27/11](briefings/2026-11-27-recherche.md) · [Briefing du 27/11 matin](briefings/2026-11-27-matin.md) · [Briefing du 26/11 après-midi](briefings/2026-11-26.md) · [Briefing du 26/11 matin](briefings/2026-11-26-matin.md) · [Briefing du 25/11 après ouverture](briefings/2026-11-25.md) · [Ordres](registre/ordres.csv) · [Valorisations](registre/valorisations.csv) · [Mandat](AGENTS.md) · [Protocole](docs/PROTOCOLE.md)
